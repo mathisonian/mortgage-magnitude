@@ -424,7 +424,7 @@ var Screen = function (_IdyllComponent) {
         width: this.props.fullBleed ? '100vw' : undefined,
         left: this.props.display === 'fixed' ? 0 : undefined,
         pointerEvents: 'none',
-        transition: 'background 0.25s'
+        transition: 'background 0.5s'
       };
 
       if (this.props.backgroundImage) {
