@@ -1,0 +1,114 @@
+
+@import url('https://fonts.googleapis.com/css?family=Quando|Judson|Montserrat');
+
+
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+body, .idyll-root {
+  font-family: 'Judson', serif;
+  font-size: 1.2em;
+}
+
+.hero {
+  margin-bottom: 5em;
+  color: white;
+  height: 100vh;
+  top: 0;
+}
+
+
+.article-header {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 800px;
+  padding: 30px;
+  border: solid 2px black;
+}
+
+.idyll-root h1.hed {
+  font-family: 'Quando', serif;
+  margin: 0;
+}
+
+.idyll-root h2.dek {
+  font-family: 'Montserrat', serif;
+  font-size: 0.8em;
+  margin: 0;
+}
+
+
+
+.panel {
+  background: white;
+  z-index: 2;
+  position: absolute;
+  left: 0;
+  right: 0;
+  width: 100%;
+}
+
+.panel p,
+.panel > div:not(.panel),
+.panel > figure {
+  display: block;
+  max-width: 600px;
+  margin: 0 auto;
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+.hero a {
+  color: white;
+}
+
+.idyll-root {
+  box-sizing: border-box;
+  padding-top: 100vh;
+  background: white;
+}
+
+.idyll-feature {
+  margin-top: 5em;
+  margin-bottom: 5em;
+}
+
+.centered {
+  max-width: 600px;
+  margin: 0 auto;
+
+}
+
+.padded {
+  margin-top: 33vh;
+  margin-bottom: 33vh;
+}
+
+.panel .screen-content {
+  background: rgba(255, 255, 255, 1.0);
+  padding: 0 30px;
+}
+.panel .screen-content p {
+  padding: 20px 0;
+  margin: 0 auto;
+}
+
+img {
+  display: block;
+  margin: 0 auto;
+}
+
+
+.article-header {
+  background: rgba(255, 255, 255, 1);
+  color: black;
+}
+.article-header a {
+  background: rgba(255, 255, 255, 1);
+  color: black;
+}
+
+.idyll-root img {
+  background: none;
+}

@@ -1,0 +1,15 @@
+{
+  "name": "mortgage-magnitude",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "idyll index.idl --defaultComponents ./components/default --css styles.css --layout centered --theme github --spellcheck --watch",
+    "build": "idyll index.idl -n --defaultComponents ./components/default --layout centered --theme github --css styles.css; cp -r {images,fonts} build/;",
+    "deploy": "npm run build && gh-pages -d ./build"
+  },
+  "dependencies": {
+    "idyll": "^1.11.0"
+  },
+  "devDependencies": {
+    "gh-pages": "^0.12.0"
+  }
+}
